@@ -1,0 +1,59 @@
+/*heading & navbar styling*/
+.h1 {
+    background-color: #4aaaa5;
+    padding: 20px;
+    margin-bottom: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+.nav-link {
+    color: #777777;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    border-right: solid #dddddd .1em;
+}
+.header {
+    border-bottom: solid #ccc 2px;
+}
+.b {
+    border-right: none;
+}
+
+
+/*background style*/
+.jumbotron {
+    background-image:url(../images/whirlpool.png);
+    height: 100% auto;
+    max-width: 100%;
+    /* background-color: red; */
+    margin-bottom: 0px;
+}
+.container {
+    background-color: white;
+}
+.page-title {
+    color: #4aaaa5;
+    border-bottom: solid #ccc 2px;
+    padding: 20px;
+    /* margin-bottom: 2rem; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-content: center;
+}
+
+
+/*footer styling*/
+.footer {
+    width:100%;
+    text-align:center;
+    background-color: #666;
+    border-top: solid #4aaaa5 5px;
+    margin-bottom: 0em;
+    /* height: 100%; */
+    position: fixed;
+    bottom: 0;
+    margin-top: 100px;
+}
+.copyright {
+    color: white;
+    padding: 30px 0 5px 0;
+    font-size: 12px;
+}
