@@ -1,10 +1,18 @@
+/*Page styling*/
+body {
+    background-image:url(../images/swirl_pattern.png);
+}
+
 /*heading & navbar styling*/
 .h1 {
     background-color: #4aaaa5;
     padding: 20px;
-    margin-bottom: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.5em;
+    margin-left: -15px;
+}
+.mb-0 {
+    margin-bottom: 0 !important;
 }
 .nav-link {
     color: #777777;
@@ -18,27 +26,25 @@
     border-right: none;
 }
 
-
-/*background style*/
-.jumbotron {
-    background-image:url(../images/whirlpool.png);
-    height: 100% auto;
-    max-width: 100%;
-    /* background-color: red; */
-    margin-bottom: 0px;
-}
-.container {
-    background-color: white;
-}
-.page-title {
+/*content styling*/
+.card-title {
     color: #4aaaa5;
     border-bottom: solid #ccc 2px;
-    padding: 20px;
-    /* margin-bottom: 2rem; */
+    padding: 0px 0px 20px 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     align-content: center;
 }
-
+.cap-fig {
+    text-align: center;
+    padding: 10px;
+    background-color: #4aaaa5;
+    color: white;
+}
+.port-image {
+    margin: 20px auto;
+    max-width: 100%; 
+    height: auto;
+}
 
 /*footer styling*/
 .footer {
@@ -47,10 +53,10 @@
     background-color: #666;
     border-top: solid #4aaaa5 5px;
     margin-bottom: 0em;
-    /* height: 100%; */
     position: fixed;
     bottom: 0;
     margin-top: 100px;
+    opacity: 0.94; 
 }
 .copyright {
     color: white;
