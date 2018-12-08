@@ -19,25 +19,23 @@ body {
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     border-right: solid #dddddd .1em;
 }
-/* .header {
-    border-bottom: solid #ccc 2px;
-    opacity: 0.94; 
-    position: fixed;
-    width:100%;
-    margin-top: 0%;
-    top: 0;
-}
 .b {
     border-right: none;
-} */
+} 
 
-/*content styling*/
-.row.myContent {
-    margin-top: 15%;
-}
+
+/*social media card styling*/
 .social-card {
     margin-bottom: 30%;
     opacity: 0.94;
+}
+.social-title {
+    color: #4aaaa5;
+    border-bottom: solid #ccc 2px;
+    padding-bottom: 8px;
+    /* padding: 0px 0px 10px opx; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-content: center;
 }
 .fa {
     padding: 10px;
@@ -49,7 +47,6 @@ body {
     margin: 5px 2px;
     /* border-radius: 50%; */
 }
-
 .fa:hover {
     opacity: 0.7;
 }
@@ -62,39 +59,39 @@ body {
     /* background: #17a2b8; */
     color: black;
 }
-.main-title {
-    color: #4aaaa5;
-    border-bottom: solid #ccc 2px;
-    padding: 0px 0px 20px 0px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    align-content: center;
-}
 .bg-color {
     background-color: #4aaaa5;
 }
-.card-header {
+
+/*Portfolio card styling*/
+.row.myContent {
+    margin-top: 15%;
+}
+.main-card {
     opacity: 0.94;
 }
-.social-title {
+.main-title {
     color: #4aaaa5;
     border-bottom: solid #ccc 2px;
-    padding-bottom: 8px;
-    /* padding: 0px 0px 10px opx; */
+    padding: 8px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     align-content: center;
 }
-
-/*images and titles to projects*/
-.cap-fig {
-    text-align: center;
-    padding: 10px;
-    background-color: #4aaaa5;
+.btn {
+    margin: 5px;
     color: white;
+    background-color: #4aaaa5;
 }
-.port-image {
-    margin: 20px auto;
-    max-width: 100%; 
-    height: auto;
+
+/*project cards styling*/
+.proj-card {
+    height: 400px;
+}
+.card-img {
+    height: 275px;
+}
+.text-color {
+    color: #4aaaa5;
 }
 
 /*footer styling*/

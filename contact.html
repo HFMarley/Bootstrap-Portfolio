@@ -5,68 +5,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bootstrap Portfolio</title>
+    <title>Hank's Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" type="text/css" href="assets/css/styleC.css">
 </head>
 
 <body>
-    <header class="header navbar-light bg-white">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-white">
-                <span class="navbar-brand text-white mb-0 h1">Hank Fox Marley</span>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul class="nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link b" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+            <span class="navbar-brand text-white h1">Hank Fox Marley</span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link b" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </header>
-
-
-    
+    </nav>
     <div class="container">
-        <div class="card mt-4 col-md-8">
-            <div class="content">
-                <div class="card-body mb-5">
-                    <h2 class="card-title">Contact</h2>
-                    <div class="row mt-4">
-                        <div class="col-md-12">
+        <div class="row myContent">
+            <div class="col-md-8">
+                <div class="card main-card mb-5">
+                    <div class="card-header bg-white">
+                        <h2 class="card-title main-title">Let's Connect!</h2>
+                        <div class="card-body">
                             <div class="row">
-                                <form class="col-md-12">
-                                    <label>Name</label>
-                                    <input type="text" class="input" placeholder="First & Last">
-                                    <label>Email</label>
-                                    <input type="text" class="input" placeholder="email@web.net">
-                                    <label>Message</label>
-                                    <textarea class="input" placeholder=""></textarea>
-                                    <input type="submit" class="submit" value="Submit">
-                                </form>
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <form class="col-md-12">
+                                            <label>Name</label>
+                                            <input type="text" class="input" placeholder="First & Last">
+                                            <label>Email</label>
+                                            <input type="text" class="input" placeholder="email@web.net">
+                                            <label>Message</label>
+                                            <textarea class="input" placeholder=""></textarea>
+                                            <input type="submit" class="submit" value="Submit">
+                                        </form>
+                                    </div>
+                                </div>
                             </div>
-                        </div>       
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card social-card mb-5">
+                    <div class="card-header bg-white text-center">
+                        <h3 class="card-title social-title">Explore & Reachout!</h3>
+                    </div>
+                    <div class="card-body bg-color text-center">
+                        <a href="https://www.linkedin.com/in/hank-fox-marley-745646171" class="fa fa-linkedin-square mt-2"></a>
+                        <a href="https://github.com/HFMarley?tab=repositories" class="fa fa-github-square"></a>
+                        <p class="email">hankfoxmarley@gmail.com</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-
-    <footer class="footer">
+    <footer class="footer bg-dark">
         <p class="copyright">Copyright &copy;</p>
     </footer>
 
